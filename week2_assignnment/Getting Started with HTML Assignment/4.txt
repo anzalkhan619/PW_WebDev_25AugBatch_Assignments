@@ -1,0 +1,8 @@
+Element: An element in HTML is the combination of start tag, the content and the end tag.
+For example: <h1> This is the content of the heading </h1> <- This whole thing is an element.
+
+Tag: A tag in an HTML is a specific keyword enclosed within diamond brackets <> that does a particular thing on a webpage like
+adding a heading,adding some metadata, adding a paragraph etc.
+For example:  <body> </body>, This is an exmaple of tags.
+
+Note: Generally tags come in pairs of start and end tags, end tags are distinguished by a forward slash /

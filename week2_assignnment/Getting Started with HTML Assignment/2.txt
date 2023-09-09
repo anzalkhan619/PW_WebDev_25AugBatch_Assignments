@@ -1,0 +1,3 @@
+The purpose comments in an html document is as following:
+1. To add additional information about your code so that you or anyone else reading your code can understand it better.
+Note: The comments in html do not get rendered by the browser.

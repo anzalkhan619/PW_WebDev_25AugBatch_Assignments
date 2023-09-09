@@ -1,0 +1,2 @@
+A DOCTYPE HTML declaration is used to specify to the browser the type of file you are creating and the version thereof.
+For example: <!DOCTYPE html> this declaration specifies to the browser that the file is an html file of the latest version.
