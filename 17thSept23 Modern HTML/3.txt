@@ -1,0 +1,9 @@
+Accessbility in the context of web development mean the use and practice of creating web pages in such a way that it is accessible
+to everyone regardless of ability.
+
+It makes it possible for differently-abled people (like low vision,handicapped etc) to access the content of our webpage by the use of clever design and inclusion
+of proper semantic tags in our html structure.
+
+Consider this scenario:
+    A bus ticket booking website that is built with accessibilty in mind will be accessible by differently-abled people as well
+    and they will be able to benifit from the service along with others.

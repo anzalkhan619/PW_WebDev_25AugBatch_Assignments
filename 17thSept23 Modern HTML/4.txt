@@ -1,0 +1,4 @@
+3 Ways to improve accessibilty of our website:
+    1. Using proper semantic tags in our page like header,footer,main,label etc.
+    2. Using proper semantic attributes like name,id,aria attributes etc.
+    3. Using description attribute for our images.

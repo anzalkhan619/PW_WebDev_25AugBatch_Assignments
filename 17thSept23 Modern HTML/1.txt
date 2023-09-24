@@ -1,0 +1,5 @@
+Some Features of HTML 5:
+    . Support for new semantic tags like div,header,footer etc
+    . Support for multimedia elements with the use of video and audio tags
+    . <canvas> element support, HTML 5 introduced the canvas tag which allows graphics to be created on the webpage itself.
+    . HTML 5 made possible the use of geolocation which enables websites to access your location on the map

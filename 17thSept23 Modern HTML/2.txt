@@ -1,0 +1,9 @@
+HTML entities are codes that makes possible to render special characters (for ex- the copyright symbol or emojis) on the webpage.
+These special characters are not present on the keyboard which makes it harder for us to include them into the webpage without
+the use of html entities.
+Some commonly used html entities:
+    &lt; - Represents the less-than sign <.
+    &gt; - Represents the greater-than sign >.
+    &amp; - Represents the ampersand &.
+    &quot; - Represents the double quotation mark ".
+    &copy; - Represents the copyright symbol ©.
