@@ -1,0 +1,2 @@
+Favicon is a small image displayed next to the page title in the browser tab.
+Example- The PW icon on the currently opened tab when you visit the pwskills website is a favicon. 

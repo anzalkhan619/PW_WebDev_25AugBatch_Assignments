@@ -1,0 +1,6 @@
+Some benifits of using metatags are as followed:
+    . Improves SEO
+    . Allows you to modify the heading and the description of your web page in search results.
+    . Ensures proper viewability of your web page using the viewport tag.
+    . Provides geolocation information so your page can be served better to your target audience.
+    . Ensures proper rendering of characters (special characters) using the charset tag. 
