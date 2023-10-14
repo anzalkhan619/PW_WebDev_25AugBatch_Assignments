@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+
+    <style>
+        .container{
+            border-style: solid;
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .box{
+            border-style: solid;
+            position: relative;
+            height: 100px;
+            width: 100px;
+            text-align: right;
+        }
+
+        #parentbox{
+            position: relative;
+
+        }
+
+        #box1{
+            position: absolute;
+            background-color: blue;
+            z-index: 3;
+
+        }
+
+        #box2{
+            position: absolute;
+            background-color: aquamarine;
+            z-index: 2;
+            left: 50px;
+            top:50px;
+        }
+        
+        #box3{
+            position: absolute;
+            background-color: blueviolet;
+            z-index: 1;
+            left: 100px;
+        }
+
+        #box4{
+            position: absolute;
+            background-color: brown;
+            top: 100px;
+            z-index: 0;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="answer">
+            <p>Z Index decides which layer will come on top of the page according to its assigned number<br>
+            Here is an example: <br>
+            Notice that the box with the higher z index is on top of the ones with lower z index</p>
+        </div>
+
+        <div id="parentbox">
+
+            <div class="box" id="box1">
+                z-index: 3
+
+            </div>
+
+            <div class="box" id="box2">
+                z-index: 2
+            </div>
+
+            <div class="box" id="box3">
+                z-index: 1
+            </div>
+
+            <div class="box" id="box4">
+                <br><br><br>
+                <p>z-index: 0</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

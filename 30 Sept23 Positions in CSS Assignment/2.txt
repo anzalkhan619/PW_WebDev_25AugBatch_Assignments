@@ -1,0 +1,9 @@
+Difference between relative and absolute positions:
+    1. Relative positioned elements can be moved using top,right,bottom,left but their space is kept at their original positions.
+       Absolute positioned elements lose their space at their original location.
+
+    2. Relative positioned elements are not removed from the flow of the page
+       Absolute positioned elements are removed from the usual flow of the page.
+
+    3. Relative positioned element's default place is right where they have been placed.
+       Absolute positioned elements take place relative to their closest parent or the html element itself.  
