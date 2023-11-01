@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d0211d5af.js" crossorigin="anonymous"></script>
+    <title>5</title>
+    <style>
+
+        .container{
+            display: flex;
+            border: solid;
+            width: 95vw;
+            height: 100vh;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .section1{
+            margin-left: 5%;
+            width: 55%;
+            border: solid;
+        }
+
+        .section2{
+            flex-grow: 1;
+            margin-right: 5%;
+            width: 45%;
+        }
+
+        .section2 img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .topcontainer{
+            display: flex;
+            height: 20%;
+            width: 100%;
+            /* background-color: azure; */
+        }
+
+        .logos{
+            /* background-color: antiquewhite; */
+            display: inline-block;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        .links{
+            /* background-color: aqua; */
+            display: inline-block;
+            width: 50%;
+            padding-left: 1;
+            padding-right: 1;            
+        }
+
+        .links a, .links button{
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+        }
+
+        .links_upperbox{
+            /* background-color: green; */
+            width: 100%;
+            height: 50%;
+            padding-bottom: 2%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        
+        .links_lowerbox{
+            /* background-color: blueviolet; */
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .links_lowerbox button{
+            background-color: white;
+            border: 1px solid;
+            border-color: grey;
+            border-radius: 3px;
+        }
+
+        .links_lowerbox button:hover{
+            background-color: #fb792b;
+            color: white;
+        }
+
+        .middlesection{
+            width: 100%;
+            height: 17%;
+            padding-left: 10%;
+        }
+        
+        .middlesection #h11, #h22{
+            font-family: sans-serif;
+        }
+
+        .middlesection #h22{
+            font-family: sans-serif;
+            font-size: 22px;
+        }
+
+        .buttonsection{
+            width: 100%;
+            height: 15%;
+            padding-left: 10%;
+            display: flex;
+            align-items: center;
+        }
+
+        .button{
+            /* width: 25%; */
+            /* width: fit-content; */
+            border-radius: 3px;
+            height: 10%;
+            margin-right: 10px;
+            padding: 6px 10px 11px 10px;
+            font-family: sans-serif;
+        }
+
+        .button:hover{
+            background-color: #213d77;
+            color: white;
+        }
+
+        .bottomsection{
+            border: solid 1px;
+            border-radius: 5px;
+            margin: 0 10% 1% 10%;
+            padding: 2%;
+        }
+
+        .bottomsectiondiv{
+            display: inline-block;
+            height: 80%;
+        }
+
+        .bottomsectiondiv2{
+            align-items: center;
+            margin: 0 5px 0 5px;
+        }
+
+        .smalltext{
+            font-size: 13px;
+            font-family: sans-serif;
+        }
+
+        .bottomsectiondiv3{
+            width: 30%;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .buttoncontainer{
+            padding-left: 10%;
+        }
+
+        .searchtrainbutton{
+            width: 90%;
+            height: 35px;
+            background-color: #01bb0a;
+            font-family: sans-serif;
+            font-size: larger;
+            font-weight: 600;
+            color: white;
+            height: 65px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="section section1">
+
+            <div class="topcontainer">
+                <div class="logos">
+                    <img src="Logo.png">
+                </div>
+
+                <nav class="links">
+                    <div class="links_upperbox">
+                        <a href="#">Ask Disha</a> <a href="#">Contact Us</a> <a href="#">Alerts</a>
+                    </div>
+
+                    <div class="links_lowerbox">
+                        <button>Login</button> <button>Register</button> <button>Agent Login</button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="middlesection">
+                <h1 id="h11">Indian Railways</h1>
+                <h2 id="h22"> <span style="color:#01bb0a"> Safety </span> <span style="color:#fc9b60"> Security </span> <span style="color: #2f497f"> Punctuality </span> </h2>
+            </div>
+
+            <div class="buttonsection">
+                <div class="button button1">
+                    <i class="fa-solid fa-ticket"></i>
+                    BOOK Ticket
+                </div>
+                <div class="button button2">
+                    <i class="fa-solid fa-check"></i>
+                    PNR Status
+                </div>
+                <div class="button button3">
+                    <i class="fa-solid fa-chart-column"></i>
+                    Charts / Vacancy
+                </div>
+            </div>
+
+            <div class="bottomsection bottomsection1">
+                <div class="bottomsectiondiv">
+                    <img src="trainin.png">
+                </div>
+
+                <div class="bottomsectiondiv bottomsectiondiv2">
+                    <span class="smalltext"> From <i class="fa-solid fa-chevron-down"></i> <br>
+                    <span class="smalltext" style="font-size:x-large; font-weight: 600;"> Bangalore </span> <br>
+                    KSR - Bangalore </span>
+                </div>
+
+                <div class="bottomsectiondiv bottomsectiondiv3">
+                    <img src="syncicon.png">
+                </div>
+
+                <div class="bottomsectiondiv">
+                    <img src="trainout.png">
+                </div>
+
+                <div class="bottomsectiondiv bottomsectiondiv2">
+                    <span class="smalltext"> To <i class="fa-solid fa-chevron-down"></i> <br>
+                    <span class="smalltext" style="font-size:x-large; font-weight: 600;"> Kasaragod </span> <br>
+                    KSD - Kasaragod </span>
+                </div>
+
+            </div>
+            
+            <div class="bottomsection bottomsection2">
+
+                <div class="bottomsectiondiv">
+                    <img src="calender.png">
+                </div>
+
+                <div class="bottomsectiondiv bottomsectiondiv2">
+                    <span class="smalltext"> Date <i class="fa-solid fa-chevron-down"></i> <br>
+                    <span class="smalltext" style="font-size:x-large; font-weight: 600;"> 01 August 23 </span> <br>
+                    Tuesday </span>
+                </div>
+
+                <div class="bottomsectiondiv bottomsectiondiv3">
+                    <img src="triballs.png">
+
+                    <span class="smalltext"> Class <i class="fa-solid fa-chevron-down"></i> <br>
+                        <span class="smalltext" style="font-size:x-large; font-weight: 600;"> 3A </span> <br>
+                        AC 3 Tier </span>
+                </div>
+
+                <div class="bottomsectiondiv" style="padding: 0 2% 2% 2%">
+                    <img src="widgets.png">
+                </div>
+
+                <div class="bottomsectiondiv bottomsectiondiv2">
+                    <span class="smalltext"> Seat Type <i class="fa-solid fa-chevron-down"></i> <br>
+                    <span class="smalltext" style="font-size:x-large; font-weight: 600;"> Tatkal </span> <br>
+                    AC 3 Tier </span>
+                </div>
+
+            </div>
+
+            <div class="buttoncontainer">
+                <button class="searchtrainbutton">Search Train</button>
+            </div>
+
+        </div>
+
+        <div class="section section2">
+            <img src="train.png">
+        </div>
+
+    </div>
+
+</body>
+</html>

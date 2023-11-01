@@ -1,0 +1,10 @@
+
+justify-content: justify content property is used to position flex items inside of a container on the main axis.
+
+align-items: align items property is used to position flex items inside of a container on the cross axis.
+
+gap: gap property is used to give a space between items in a container
+
+flex-direction: flex-direction is used to set the main axis of the flex box (row or column)
+
+flex-wrap: flex wrap property wraps an item on to a new line if it does not fit in the original line.

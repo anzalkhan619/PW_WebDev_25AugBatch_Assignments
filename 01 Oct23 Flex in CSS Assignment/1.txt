@@ -1,0 +1,5 @@
+Flex Box: Flex Box layout model makes all the items in the flex container a lot more flexible to work with.
+For Ex- You can align, expand, shrink items with much ease.
+
+Grid Layout: Grid layout is basically creating your webpage in a grid like model like in MS Excel, your page will consist of
+rows,, columns and cells.

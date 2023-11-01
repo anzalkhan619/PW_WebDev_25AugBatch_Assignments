@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/6d0211d5af.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <style>
+
+        .container{
+            background-color: #f4f2fd;
+            width: 80vw;
+            height: 500px;
+            border: solid;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .child{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 70%;
+            border: solid;
+            border-radius: 10px;
+            font-family: cursive;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .child:hover{
+            background-color: #202842;
+            color: white;
+        }
+
+        .child:hover .subscribe{
+            background-color: white;
+            color: black;
+        }
+
+        .dollarsign{
+            display: inline-block;
+            font-size: 30px;
+            margin-bottom: 10px;
+            margin-top: -8px;
+        }
+
+        .for{
+            display: inline-block;
+        }
+
+        .block1 h2{
+            margin-bottom: -10px;
+        }
+
+        .subscribe{
+            border-radius: 12px;
+            width: 133px;
+            height: 34px;
+            margin: 30px auto;
+            background-color: #202842;
+            color: white;
+            font-family: cursive;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child child1">
+            <div class="block1">
+                <h2>Free Plan</h2>
+                <span class="for"> <p>For Personal</p> </span><br>
+
+                <span class="dollarsign">$0</span><br>
+
+                <i class="fa-solid fa-circle-check"></i> 1 Users<br>
+                <i class="fa-solid fa-circle-check"></i> 4 Web Mails<br>
+                <i class="fa-solid fa-circle-check"></i> Responsive Websites<br>
+                <i class="fa-solid fa-circle-check"></i> Free SSL<br>
+
+                <button class="subscribe">Subscribe now</button>
+            </div>
+        </div>
+
+        <div class="child child2">
+            <div class="block1">
+                <h2>Basic Plan</h2>
+                <span class="for"> <p>For Small Businesses</p> </span><br>
+
+                <span class="dollarsign">$29</span><br>
+
+                <i class="fa-solid fa-circle-check"></i> 4 Users<br>
+                <i class="fa-solid fa-circle-check"></i> 10 Web Mails<br>
+                <i class="fa-solid fa-circle-check"></i> Responsive Websites<br>
+                <i class="fa-solid fa-circle-check"></i> Free SSL<br>
+
+                <button class="subscribe">Subscribe now</button>
+            </div>
+        </div>
+
+        <div class="child child3">
+            <div class="block1">
+                <h2>Pro Plan</h2>
+                <span class="for"> <p>For Enterprises</p> </span><br>
+
+                <span class="dollarsign">$49</span><br>
+
+                <i class="fa-solid fa-circle-check"></i> Unlimited Users<br>
+                <i class="fa-solid fa-circle-check"></i> Unlimited Web Mails<br>
+                <i class="fa-solid fa-circle-check"></i> Responsive Websites<br>
+                <i class="fa-solid fa-circle-check"></i> Free SSL + SEO<br>
+
+                <button class="subscribe">Subscribe now</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
