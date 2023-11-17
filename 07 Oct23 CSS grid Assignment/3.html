@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <style>
+        .container1 {
+            width: 1000px;
+            height: 800px;
+            display: grid;
+            grid-template-rows: 200px 200px;
+            grid-auto-rows: 100px;
+        }
+
+        .box {
+            border: solid;
+        }
+
+        .answer {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="answer">
+        <p>Grid-auto-row: The purpose of grid auto row is to give a size to all the rows of the grid which haven't been
+            given a size explicitly.
+            In the box below, The first 2 rows have been given a size of 200px each but the remaining 3 rows are not but
+            they still take up 100px of height because of the grid-auto-row is set to 100px.</p>
+    </div>
+
+    <div class="container1">
+
+        <div class="box box1">
+            200px
+        </div>
+
+        <div class="box box1">
+            200px
+        </div>
+
+        <div class="box box1">
+            100px
+        </div>
+
+        <div class="box box1">
+            100px
+        </div>
+
+        <div class="box box1">
+            100px
+        </div>
+
+    </div>
+
+    <div class="answer">
+        <p>Grid-auto-column: The purpose of grid auto column is to give a size to all the columns of the grid which
+            haven't been given a size explicitly.</p>
+    </div>
+
+</body>
+
+</html>
