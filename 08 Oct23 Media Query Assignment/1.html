@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <style>
+        .container {
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-areas:
+                'header header header'
+                'main main main'
+                'main main main'
+                'main main main'
+                'main main main'
+                'footer footer footer'
+                'footer footer footer';
+        }
+
+        .container h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header, .main, .footer {
+            display: flex;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: aqua;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: bisque;
+            flex-direction: column;
+        }
+
+        .main h2 {
+            align-self: center;
+        }
+
+        .main .paragraph {
+            margin: 0 20%;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer a{
+            color: white;
+            text-decoration: none;
+            margin: 10px -100px;
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 600px){
+            .header{
+                background-color: blue;
+            }
+
+            .footer{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Responsive Header</h1>
+        </div>
+        <div class="main">
+            <h2>Main Content</h2><br>
+            <div class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel distinctio soluta, dolorem vitae impedit
+                quaerat facilis laboriosam nesciunt incidunt quidem, quis maiores! Pariatur minima quibusdam quidem rem
+                et sapiente repellat. Quibusdam fuga tempore tempora fugiat deserunt eaque, veniam dolore? Dolore ullam
+                deleniti autem sunt, nobis eos voluptatibus quia, corporis iure neque reprehenderit recusandae
+                repellendus quas soluta hic magni dignissimos mollitia optio corrupti! Similique rerum eius repellat
+                dolore reprehenderit qui atque culpa? Similique odio ipsa adipisci atque qui, iste eos dolorem maiores
+                ipsam tempora quibusdam sapiente facere, consequuntur doloribus laboriosam accusamus nesciunt neque
+                impedit. Nesciunt, temporibus ad. Quae numquam neque architecto ut laborum iste nesciunt, est animi
+                autem rerum, ipsam libero minima molestias mollitia facilis voluptatibus sint nemo, consectetur fuga
+                possimus voluptas vel. Nemo autem praesentium aliquam, illum hic voluptatum expedita beatae ab ipsum
+                labore sapiente quo quas sint provident saepe esse maxime eligendi ex. Veritatis id quisquam, velit
+                magnam rerum sequi at quam nulla soluta, distinctio error reprehenderit quas obcaecati in facere
+                necessitatibus voluptatum deleniti hic facilis! Facere tempore corporis saepe modi, id a in. Pariatur
+                iure harum dolorem delectus repellat nulla, doloribus tempore cupiditate, reprehenderit, sapiente
+                debitis odit maiores laborum aliquid! Corrupti animi officia quia itaque id nulla ullam ipsam
+                laudantium, dignissimos adipisci, sit amet impedit at a cum pariatur quis, vero repellendus repellat
+                aperiam voluptate praesentium sint? Aperiam doloremque delectus, ad enim neque facere aspernatur,
+                corrupti nam mollitia quibusdam corporis amet incidunt quas voluptatum libero cum est cupiditate animi
+                accusamus nemo optio minima. Inventore amet numquam quibusdam quisquam perferendis aliquid saepe
+                suscipit! Cumque ut blanditiis, iusto sequi repudiandae nemo quibusdam neque quidem praesentium unde
+                non, ea recusandae id minus illo aperiam nobis amet ab aliquam. Obcaecati voluptatum rerum, ducimus est,
+                porro voluptatibus repellendus consectetur pariatur dolore deserunt commodi odio impedit modi at
+                corrupti, culpa reprehenderit magni in dolorem?Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquam suscipit deleniti quis harum laudantium accusantium, quas earum non dignissimos impedit minima
+                maiores commodi eius praesentium obcaecati velit aut, ea consectetur libero accusamus quam perferendis
+                reprehenderit. Omnis ab ad, quas consequuntur tenetur saepe ullam autem exercitationem cumque quaerat
+                impedit similique eaque sint error magni officiis nisi enim, id odio tempore voluptas iste nesciunt
+                doloremque! Accusantium error enim, deserunt accusamus labore quae in odit, amet corrupti sed minima,
+                tempore impedit reiciendis fugiat ea dolorum et aperiam modi. Quod vero ipsa quia repellendus modi
+                laboriosam voluptatibus, officiis corrupti fugiat expedita, incidunt, deserunt omnis beatae illo quas
+                nobis amet et dicta facere? Nam porro delectus quisquam commodi assumenda, quo enim repellendus
+                voluptatem architecto et nemo possimus temporibus excepturi unde maxime ullam esse ea doloremque.
+                Voluptate ad voluptatem culpa eius dolorum quod commodi minus ipsam eaque at aperiam iure asperiores
+                veritatis, ab, delectus repellat inventore magni. Expedita delectus velit ut facilis beatae quas quasi
+                fugiat perferendis culpa, vero soluta, maxime totam exercitationem architecto explicabo doloribus quia
+                neque, officia ipsam nulla quam! Perspiciatis quasi hic sit soluta, totam unde magnam aut accusamus
+                porro nemo. Quaerat, natus provident! Fuga deserunt quas ut beatae quod accusantium corporis eaque.
+            </div>
+        </div>
+        <div class="footer">
+            <a href="">lorem</a>
+            <a href="">ipsum</a>
+            <a href="">dolor</a>
+            <a href="">lolok</a>
+            <a href="">justdoit</a>
+        </div>
+    </div>
+</body>
+
+</html>
