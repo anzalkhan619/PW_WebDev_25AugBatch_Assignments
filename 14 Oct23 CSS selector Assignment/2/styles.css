@@ -1,0 +1,16 @@
+header li::marker{
+    content: none;
+}
+
+header li a{
+    text-decoration: none;
+    color: blue;
+}
+
+ul > li{
+    display: inline;
+}
+
+li + li{
+    margin: 0 12px;
+}

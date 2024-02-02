@@ -1,0 +1,43 @@
+body {
+    margin: 0 15%;
+}
+
+nav a {
+    color: red;
+}
+
+nav>h2 {
+    background-color: rgb(221, 116, 116);
+    color: rgb(43, 43, 43);
+}
+
+nav p:nth-of-type(1){
+    color: red;
+}
+
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+
+a[class="active"]{
+    color: magenta;
+    text-decoration: underline;
+}
+
+a[target="_self"]{
+    background-color: yellowgreen;
+}
+
+p:last-of-type::after{
+    content: "...";
+}
+
+li::marker{
+    color: gold;
+}
+
+p:nth-last-of-type(2)::first-letter{
+    color: red;
+    font-size: 30px;
+}
