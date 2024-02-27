@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <style>
+        
+        :root{
+            --primary-color: #00b7ff;
+            --secondary-color: #6c757d;
+        }
+
+        #primaryBtn{
+            background-color: var(--primary-color);
+        }
+
+        #secondaryBtn{
+            background-color: var(--secondary-color);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <button id="primaryBtn">
+            Primary Button
+        </button>
+        
+        <button id="secondaryBtn">
+            Secondary Button
+        </button>
+
+        <p>
+            The purpose of var function is to create reusable specifications of styles by putting them into a user-decided name.
+            It allows us to use styles without hard coding them.
+
+            For ex: We can create a var --primary-color and give it the value blue and now we can use --var(primary-color) to give
+            an element the color blue without hard coding it.
+        </p>
+    </div>
+</body>
+</html>
